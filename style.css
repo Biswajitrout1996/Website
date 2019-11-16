@@ -1,0 +1,164 @@
+*{margin: 0px; padding:0px; box-sizing:border-box} 
+body{
+    
+    background-image: url(./nature-3082832_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vp;
+   
+}
+
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+/* .clearfix{
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+    contain: ".";
+} */
+
+.logo{
+    height: 120px;
+    width:auto;
+    float: left;
+    margin-top: 20px;
+}
+.main-nav{
+    float: right;
+    margin-top: 60px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 35px;
+}
+.main-nav li a{
+    padding: 5px;
+    color: rgb(13, 253, 5);
+    text-decoration:none;
+    text-transform: uppercase; /*to convert lower to upper*/
+    font-size: 90%;
+    font-weight: 75%;
+}
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    color:white;
+    font-family: 'Flamenco', cursive;
+}
+.main-content{
+    width:1180px ;
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+h3{
+    color:greenyellow;
+    word-spacing: 2px;
+    font-size: 100%;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    border-radius: 200px;
+ transition: background-color 0.2s,border 0.2s,color 0.2;
+
+}
+.mobile{display: none;}
+
+
+.btn-full{
+    background-color: transparent;
+    color: #bf55ec;
+    margin-right: 15px;
+    border: 5px solid white;
+}
+.btn-full:hover{
+    background-color: white;
+}
+.btn-nav:hover{
+    background-color: #bf55ec;
+
+}
+
+.btn-nav{
+    background-color: transparent;
+    color: white;
+    margin-right: 15px;
+    border: 5px solid #bf55ec;
+}
+.main-nav li a:hover{
+border-bottom: 2px solid #bf55ec
+}
+
+.color-change{
+    animation: afflictions 1s infinite;
+
+}
+@keyframes afflictions{
+    0%{color:red;}
+    25%{color:white;}
+    50%{color:green;}
+    100%{color:grey;}
+}
+.color{
+    animation: green 1s infinite;
+
+}
+@keyframes green {
+    
+    
+    50%{color:green;}
+    100%{color:grey;}
+}
+
+
+/*RESPONSIVE QUERRY*/
+
+@media only screen and(max-width:1020px){
+    .main-content{
+        width: 100%;
+        padding: 2%;
+    }
+}
+@media only screen and(max-width:1020px){
+.h3{font-size: 200px;
+
+}
+}
+
+@media only screen and(max-width:768px){
+    .h3{font-size: 200px;}
+        .main-nav{display: none;}
+        .mobile{
+            display: inline-block;
+            color: white;
+    
+            margin-top: 30px;
+            margin-right: 20px;
+
+
+        }
+
+    }
+    
+
+
+
+
+
+
+
